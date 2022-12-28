@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Dopefolio</title>
+    <meta name="description" content="Portfolio Template for Developer" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link"> Contact </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="home-hero">
+      <div class="home-hero__content">
+        <h1 class="heading-primary">Hi, I am Lee Shi Ying</h1>
+        <div class="home-hero__info">
+          <p class="text-primary">
+            A recently graduated computer science student.
+          </p>
+        </div>
+      </div>
+      <div class="home-hero__mouse-scroll-cont">
+        <div class="mouse"></div>
+      </div>
+    </section>
+    <section id="about" class="about sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">About Me</span>
+        </h2>
+        <div class="about__content">
+          <div class="about__content-main">
+            <h3 class="about__content-title">Get to know me!</h3>
+            <div class="about__content-details">
+              <p class="about__content-details-para">
+                Hey! It's
+                <strong>Shi Ying</strong>.
+                I studied for a Bachelor of Science in Computing Science at the University of East Anglia and recently graduated with a first class.
+                I am very interested in pursuing a career as a <strong>Software Engineer</strong> especially after completing one of my projects in my second year which gives me real satisfaction and a realization that software can make life better and easier.
+                
+              </p>
+              <p class="about__content-details-para">
+                I enjoy taking on challenges that enable me to learn and be exposed to the cutting edge technologies. I am currently aiming to secure a place as a <strong>Software Engineer</strong> that provides progression opportunities.
+               
+              </p>
+            </div>
+            </div>
+          <div class="about__content-skills">
+            <h3 class="about__content-title">My Skills</h3>
+            <div class="skills">
+              <div class="skills__skill">Python</div>
+              <div class="skills__skill">Java</div>
+              <div class="skills__skill">C</div>
+              <div class="skills__skill">C++</div>
+              <div class="skills__skill">PGSQL</div>
+              <div class="skills__skill">HTML</div>
+              <div class="skills__skill">CSS</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <section id="projects" class="projects sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Projects</span>
+        </h2>
+
+        <div class="projects__content">
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/rsa.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Cryptanalysis of the RSA cryptosystem.</h3>
+              <p class="projects__row-content-desc">
+                Implemented an RSA cryptosystem and investigate the security of it by using different factorization method and compare the efficiency of different methods.
+                The factorization methods used are Trial division, Fermat's factorization, Pollard's p-1, Pollard's Rho, ECM(GMP-ecm)and Quadractic sieve (Msieve).
+                Users can encrypt and decrypt a message using the RSA cryptosystem implemented.
+                This project is made with .NET framework and C++ with the help of some open software.
+              </p>
+              <div class="project-details__tools-used">
+              <h4 class="project-details__content-title">Tools Used</h4>
+              <div class="skills">
+                <div class="skills__skill">.NET framework</div>
+                <div class="skills__skill">C++</div>
+              </div>
+         
+    
+              <a
+                href="https://github.com/shiiyinggg/RSA-cryptosystem"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Code</a
+              >
+            </div>
+            
+          </div>
+          </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/ai.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h5 class="projects__row-content-title">Intelligent Chatbot</h5>
+              <p class="projects__row-content-desc">
+                Worked in a team of three to develop an intelligent chatbot for a train operating company. 
+                User is able to find the cheapest ticket for their journey using this chatbot. 
+                User can also keep track of the information of the train ticket they buy.
+                It can also predict the new arrival time of a train if any delay occurs.
+              </p>
+              <div class="project-details__tools-used">
+              <h6 class="project-details__content-title">Tools Used</h6>
+              <div class="skills">
+                <div class="skills__skill">HTML</div>
+                <div class="skills__skill">CSS</div>
+                <div class="skills__skill">Javascript</div>
+                <div class="skills__skill">Python</div>
+                <div class="skills__skill">Flask</div>
+                <div class="skills__skill">SpaCy</div>
+                <div class="skills__skill">Beautiful Soup</div>
+                <div class="skills__skill">Experta</div>
+                <div class="skills__skill">PGSQL</div>
+                <div class="skills__skill">Pandas</div>
+              </div>
+              <a
+                href="https://github.com/jhang01/Artificial-Intelligence"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Code</a
+              >
+            </div>
+          </div>
+          </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/png/proactive.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h7 class="projects__row-content-title">Health Tracker (Pro-Active)</h7>
+              <p class="projects__row-content-desc">
+                Worked in a group of five to developed a health tracker which aims to support and reward users for staying fit and healthy.
+                Users are able to track their daily diet and fitness and can also set a customise goals for themselves.
+                In addition, users can also create or join groups to share their data and inspire one another.
+                They can also freely invite friends into the group by using the unique join code.
+              </p>
+              <div class="project-details__tools-used">
+              <h8 class="project-details__content-title">Tools Used</h8>
+              <div class="skills">
+                <div class="skills__skill">Java</div>
+                <div class="skills__skill">JavaFX</div>
+                <div class="skills__skill">PGSQL</div>
+              </div>
+              <a
+                href="https://github.com/HarryYelland/ProActive"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Code</a
+              >
+            </div>
+          </div>
+        </div>
+
+    </section>
+    <section id="contact" class="contact sec-pad dynamicBg">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+        </h2>
+        <div class="contact__form-container">
+          <form action="#" class="contact__form">
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="name">Name</label>
+              <input
+                required
+                placeholder="Enter Your Name"
+                type="text"
+                class="contact__form-input"
+                name="name"
+                id="name"
+              />
+            </div>
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="email">Email</label>
+              <input
+                required
+                placeholder="Enter Your Email"
+                type="text"
+                class="contact__form-input"
+                name="email"
+                id="email"
+              />
+            </div>
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="message">Message</label>
+              <textarea
+                required
+                cols="30"
+                rows="10"
+                class="contact__form-input"
+                placeholder="Enter Your Message"
+                name="message"
+                id="message"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn--theme contact__btn">
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="main-container">
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Lee Shi Ying</h4>
+            <p class="main-footer__short-desc">
+              Feel free to contact me through email <strong>shiying0917@gmail.com</strong>
+            </p>
+          </div>
+        </div>
+
+        <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
